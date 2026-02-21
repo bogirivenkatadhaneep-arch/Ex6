@@ -1,11 +1,14 @@
 {
   "name": "ex6",
+  "homepage": "https://bogirivenkatadhaneep-arch.github.io/Ex6/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
