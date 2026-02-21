@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className="title">Product Listing 2500031407</h1>
+      <h1 className="title">B.V DHANEEP - Product Listing 2500031407</h1>
 
       <div className="grid">
         {products.map((product) => (
